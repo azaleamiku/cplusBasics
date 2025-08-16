@@ -9,4 +9,4 @@ int main(void)
     << std::endl;
 
     return 0;
-}
+} 
