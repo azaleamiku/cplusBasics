@@ -10,6 +10,6 @@ int main(void)
 {
     int result = add(5, 3);
 
-    std::cout << "THe sum is: " << result << std::endl;
+    std::cout << "The sum is: " << result << std::endl;
     return 0;
 }
