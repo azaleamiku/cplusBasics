@@ -1,0 +1,15 @@
+# Compiled binaries and object files
+*.o
+*.exe
+*.out
+
+# C++ IDEs
+.vscode/
+.vs/
+*.vcxproj*
+*.sln
+*.suo
+*.user
+
+# Miscellaneous
+*.log
