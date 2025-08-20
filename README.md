@@ -1,48 +1,50 @@
 # C++ Basics
 
-This repository contains a collection of fundamental C++ programs and code snippets, designed for learning and practicing core concepts. Each file demonstrates a specific idea, from basic syntax to functions and control flow.
+A beginner-friendly collection of C++ programs—simple, self-contained, and designed to build your confidence one concept at a time.
 
-## Current Topics
+---
 
-### Basic Syntax and I/O
-* **helloWorld.cpp**: A classic "Hello, World!" program.
-* **syntax.cpp**: Demonstrates basic C++ syntax and structure.
-* **input.cpp**: Shows how to take and handle user input.
-* **inputBoxes.cpp**: An example of inputting multiple values.
+## What You’ll Find Inside
 
-### Control Flow
-* **ifElse.cpp**: Demonstrates simple conditional logic with if/else statements.
-* **oddEven.cpp**: An example of checking if a number is odd or even.
-* **secretNumber.cpp**: A basic game using conditional logic.
+This repo showcases fundamental C++ concepts and small projects, organized by topic:
 
-### Loops and Arrays
-* **arrayLoop.cpp**: Shows how to iterate through an array using a loop.
-* **arraySum.cpp**: Calculates the sum of all elements in an array.
-* **arrayList.cpp**: An example of using a dynamic array (vector).
-* **fillList.cpp**: Demonstrates how to populate a list with data.
+- **Basic Syntax & I/O**
+  - `helloWorld.cpp` – Your trusty “Hello, World!” starter.
+  - `syntax.cpp` – Core C++ structure and code layout.
+  - `input.cpp`, `inputBoxes.cpp` – Reading input from users.
 
-### Functions and Structs
-* **listFunction.cpp**: An example of a function that works with lists.
-* **returnListfunction.cpp**: Shows a function that returns a list.
-* **parameter.cpp**: Demonstrates how to pass parameters to a function.
-* **boxStruct.cpp**: An example of using a basic C++ `struct`.
+- **Control Flow**
+  - `ifElse.cpp` – Conditional logic with `if` / `else`.
+  - `oddEven.cpp` – Determine if numbers are odd or even.
+  - `secretNumber.cpp` – A simple guessing game using conditions.
 
-### Problem-Solving Examples
-* **calc.cpp**: A simple calculator program.
-* **circumference.cpp**: Calculates the circumference of a circle.
-* **factorial.cpp**: Computes the factorial of a number.
-* **numbersSum.cpp**: Calculates the sum of a series of numbers.
-* **primeNumberchecker.cpp**: Determines if a number is prime.
-* **rectangleArea.cpp**: Calculates the area of a rectangle.
+- **Loops & Arrays**
+  - `arrayLoop.cpp` – Looping through elements in an array.
+  - `arraySum.cpp` – Summing values in a collection.
+  - `arrayList.cpp`, `fillList.cpp` – Working with dynamic lists.
 
-## Planned Additions
+- **Functions & Structs**
+  - `parameter.cpp` – How parameters work in functions.
+  - `returnListfunction.cpp` – Returning data via functions.
+  - `listFunction.cpp` – Manipulate lists in functions.
+  - `boxStruct.cpp` – Demonstrates using a `struct`.
 
-I plan to add more examples for more advanced topics, including:
-* Classes and Objects (OOP)
-* Pointers
-* File I/O
-* Recursion
+- **Problem-Solving Examples**
+  - `calc.cpp` – A basic calculator program.
+  - `circumference.cpp` – Compute a circle’s circumference.
+  - `factorial.cpp` – Calculate factorials.
+  - `numbersSum.cpp` – Sum a sequence of numbers.
+  - `primeNumberchecker.cpp` – Check for prime numbers.
+  - `rectangleArea.cpp` – Calculate a rectangle’s area.
 
-## License
+---
 
-This project is open-sourced under the MIT License.
+## How to Compile and Run
+
+Make sure you have a C++ compiler (like `g++`) installed, then:
+
+```bash
+git clone https://github.com/azaleamiku/cplusBasics.git
+cd cplusBasics
+g++ fileName.cpp -o outputName
+./outputName
