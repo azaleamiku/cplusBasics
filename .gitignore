@@ -1,15 +1,21 @@
-# Compiled binaries and object files
+# Ignore compiled object files
 *.o
-*.exe
-*.out
 
-# C++ IDEs
-.vscode/
-.vs/
-*.vcxproj*
-*.sln
-*.suo
-*.user
+# Ignore executables with no extension (including ones in subdirectories)
+**/*
 
-# Miscellaneous
-*.log
+# But explicitly keep C++ source and header files
+!**/*.cpp
+!**/*.hpp
+!**/*.h
+!**/*.c
+!**/*.cxx
+
+# Allow other important files (README, docs, etc.)
+!README.*
+!*.md
+
+# Ignore editor or temp files
+*.swp
+*.tmp
+*.bak
